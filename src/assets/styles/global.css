@@ -1,6 +1,5 @@
 :root {
     font-size: 60%;
-
     --color-background: #F0F0F7;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
@@ -41,11 +40,9 @@ body {
     justify-content: center;
 }
 
-body,
-input,
-button,
-textarea {
+body, input, button, textarea {
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
 }
 
 .container {
@@ -53,7 +50,7 @@ textarea {
     max-width: 700px;
 }
 
-@media(min-width: 700px){
+@media(min-width: 700px) {
     :root {
         font-size: 62.5%;
     }
